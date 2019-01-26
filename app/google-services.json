@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "511352007578",
+    "firebase_url": "https://studentcarrer-e4376.firebaseio.com",
+    "project_id": "studentcarrer-e4376",
+    "storage_bucket": "studentcarrer-e4376.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:511352007578:android:525f764d759e3a08",
+        "android_client_info": {
+          "package_name": "com.job.scc.scc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "511352007578-uqknhh2td5eu9180saof9ph2ao7mpc8n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.job.scc.scc",
+            "certificate_hash": "3891534161da72c1bb64566e4992b0349406bf5e"
+          }
+        },
+        {
+          "client_id": "511352007578-n7acc3kte10crankkte5ju8etk8nlgbu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCXsLTdISBN25C2OFyTuJsz6XQGZsoQypU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "511352007578-n7acc3kte10crankkte5ju8etk8nlgbu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="18dp"
+    android:paddingRight="18dp"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="@color/white"
+    tools:context=".Profile">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/pprofilepic"
+                android:layout_width="210dp"
+                android:layout_height="155dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/profile"
+                android:padding="16dp" />
+            <TextView
+                android:id="@+id/tvpname"
+                style="@style/TextAppearance.AppCompat.Body2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="40dp"
+                android:clickable="true"
+                android:padding="10dp"
+                android:text="Name:"
+                android:textColor="@color/black"
+                android:textSize="18dp" />
+            <TextView
+                android:id="@+id/tvpmail"
+                style="@style/TextAppearance.AppCompat.Body2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:layout_marginTop="5dp"
+                android:clickable="true"
+                android:padding="10dp"
+                android:text="Email:"
+                android:textColor="@color/black"
+                android:textSize="18dp" />
+            <TextView
+                android:id="@+id/tvpcollege"
+                style="@style/TextAppearance.AppCompat.Body2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:layout_marginTop="5dp"
+                android:clickable="true"
+                android:padding="10dp"
+                android:text="College:"
+                android:textColor="@color/black"
+                android:textSize="18dp" />
+            <TextView
+                android:id="@+id/tvpcity"
+                style="@style/TextAppearance.AppCompat.Body2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:layout_marginTop="5dp"
+                android:clickable="true"
+                android:padding="10dp"
+                android:text="City:"
+                android:textColor="@color/black"
+                android:textSize="18dp" />
+            <Button
+                android:id="@+id/btnedit"
+                style="@style/Base.TextAppearance.AppCompat.Body1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/backgroundsignup"
+                android:clickable="true"
+                android:padding="16dp"
+                android:text="Edit"
+                android:textAllCaps="false"
+                android:textColor="#fff"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

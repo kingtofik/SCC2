@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/navprofile"
+            android:icon="@drawable/ic_perm_identity_black_24dp"
+            android:title="Profile" />
+        <item
+            android:id="@+id/navnotification"
+            android:icon="@drawable/notific_24dp"
+            android:title="Notification" />
+        <item
+            android:id="@+id/navsetting"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Settings" />
+        <item
+            android:id="@+id/navfavorite"
+            android:icon="@drawable/favorite_24dp"
+            android:title="Favorite" />
+        <item
+            android:id="@+id/navlogout"
+            android:icon="@drawable/logout_24dp"
+            android:title="Logout" />
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/navshare"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/navsend"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Feedback" />
+        </menu>
+    </item>
+
+</menu>
